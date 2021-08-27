@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlCdnUrl = require("../src/public/html-cdn-url")
+const HtmlCdnUrl = require("../src/plugins/html-cdn-url")
 
 module.exports = {
     mode: 'development',
@@ -17,7 +17,7 @@ module.exports = {
                     // 本地引用loader
                     loader: path.resolve('./src/loaders/replace-loader'),
                     options: {
-                        // 通过配置传入words来替换NAME为wei
+                        // 通过配置传入words来替换NAME
                         words: '你好'
                     }
                 }]
