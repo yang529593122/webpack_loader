@@ -1,0 +1,1 @@
+(()=>{var o={936:()=>{console.log("你好",1)}},e={};function r(t){var n=e[t];if(void 0!==n)return n.exports;var c=e[t]={exports:{}};return o[t](c,c.exports,r),c.exports}(()=>{r(936),console.log("prod","当前环境");const o=document.createElement("img");o.src="https://img.kaikeba.com/a/81907103501202xpgv.png",document.getElementById("root").appendChild(o),console.log(5555)})()})();
